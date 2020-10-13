@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+.container nav {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.header--nav ul {
+  justify-content: right;
+}
