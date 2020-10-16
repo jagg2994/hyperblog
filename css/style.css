@@ -14,14 +14,25 @@ a {
   text-decoration: none;
 }
 /* Navigation */
+.header__figure {
+  /* justify-content: flex-start; */
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
 .header {
   width: 100%;
   height: 60px;
   border: 0.1rem solid red;
+  display: flex;
+  justify-content: space-between;
 }
 .header__nav {
   display: flex;
-  justify-content: flex-end;
+  
   
 }
 .header__ul {
